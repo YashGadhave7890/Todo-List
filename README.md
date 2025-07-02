@@ -1,7 +1,8 @@
 # 📝 To-Do List App
 
 A modern, interactive To-Do List web application with task prioritization, sorting, filtering, dark/light theme toggle, and more — designed to make task management fun and efficient!
-![Screenshot](./screenshot.png)
+![Screenshot](TODO%20APP/screenshot.png)
+
 
 
 ## ✨ Features
