@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Enhanced To-Do List</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="dark">
+  <div class="container">
+    <header>
+      <h1>To-Do List</h1>
+      <button id="theme-toggle">🌞</button>
+    </header>
+    <div class="input-row">
+      <input id="task-input" placeholder="New task..." />
+      <input type="date" id="due-input" />
+      <select id="priority-input">
+        <option value="low">Low</option>
+        <option value="medium">Medium</option>
+        <option value="high">High</option>
+      </select>
+      <button id="add-btn">Add</button>
+    </div>
+    <div class="controls">
+      <div class="filters">
+        <button data-filter="all" class="active">All</button>
+        <button data-filter="active">Active</button>
+        <button data-filter="completed">Completed</button>
+      </div>
+      <div class="sorts">
+        <button data-sort="text">Sort A-Z</button>
+        <button data-sort="due">Sort Due</button>
+        <button data-sort="priority">Sort Priority</button>
+      </div>
+    </div>
+    <ul id="task-list"></ul>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
